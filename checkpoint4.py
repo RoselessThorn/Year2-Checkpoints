@@ -4,7 +4,15 @@ Created on Sat Oct 24 19:49:39 2020
 
 @author: HP
 """
+#The computing task is to write a Python program to read in data from the supplied file for voltage ( V(t)) and current ( I(t)) and plot, via pyplot, the log power, being,
+#p(t)=log(V(t)I(t))
+#where log is natural log to base e.
 
+#Your program should:
+
+#Prompt for the filename to be read.
+#Read in the required data from sample.txt file and display p(t) over the supplied range of t with suitable titles and axis labels.
+#You must use a function of the form logpower(voltage,current) to form the p(t), and a main() program.
 import math
 import numpy as np
 import matplotlib.pyplot as plt
