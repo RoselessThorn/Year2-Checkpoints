@@ -4,6 +4,12 @@ Created on Sat Oct 17 19:55:10 2020
 
 @author: HP
 """
+#Write an interactive Python program to compute and display, using the pyplot function from Matplotlib, the solution for x against t for t in the range 0→5π/ω0. Your program should:
+
+#Ask for and read in the values of ω0, γ and the number of points to plot on the graph from the terminal.
+#Use a function of form shm(omega_zero,gamma,t) to calculate the displacement.
+#Calculate and plot the amplitude and time to lists
+#Plot the output via pyplot with suitable title and labels to axis
 import math
 import matplotlib.pyplot as plt
 import numpy as np
