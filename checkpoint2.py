@@ -1,7 +1,18 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Oct 10 10:21:46 2020
+#Write a Python program to read in the three floating point coefficients a, b and c of the quadratic equation
+#ax^2+bx+c=0
+#then calculate and display the roots using the standard formula for roots of quadratic being,
+ri=−b±b^2−4ac−−−−−−−√2a
+#The program is expected to deal with conditions of
 
+#two real roots
+#two complex roots
+#single real root
+#Your program must contain a function to calcuate the discriminant,
+#d=b^2−4ac
+#and must have a main(): program. All variables must be declared inside a function or main().
 @author: HP
 """
 import math
